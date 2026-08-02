@@ -61,6 +61,9 @@ Practo Clone/
 
 ![Appointment](https://github.com/asmahussain5214/Practo-Clone/blob/46c30dd87feeae129b3240f3eb9e099d6f257971/Appointment%20Booking.png)
 
+##Inclinic visit
+![In clinic](https://github.com/asmahussain5214/Practo-Clone/blob/3ecbe88bad18d49de0d493c4d96391d143c1a349/Inclinic-Visit.png)
+
 ## Medicine Page
 
 ![Medicine](screenshots/medicine.png)
