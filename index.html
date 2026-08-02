@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medico - Your Health, Our Priority</title>
+    <!-- RELATIVE PATH TO STYLESHEET -->
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="back-nav">
+        <button onclick="goBack()">← Back</button>
+        <span>MedicoCare Platform</span>
+    </div>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <div class="logo-section">
+                <!-- Using web fallback if local file path is broken -->
+                <img src="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" alt="Logo" class="logo">
+                <span class="logo-text">Medico</span> 
+            </div>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="appointment.html">Book Appointment</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Your Health, <span>Our Priority</span></h1>
+            <p>Find trusted doctors, book appointments, and access healthcare—all from your home.</p>
+
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search doctors, specialties...">
+                <button onclick="searchDoctors()">Search</button>
+            </div>
+        </div>
+
+        <div class="hero-img">
+            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=800&auto=format&fit=crop" alt="Doctors Team">
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION (HORIZONTAL GRID) -->
+    <section class="services">
+        <h2>What We Offer</h2>
+
+        <div class="service-container">
+            <div class="service-card" onclick="openService('video')">
+                <h3>Video Consultation</h3>
+                <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=600&auto=format&fit=crop" alt="Video Consultation">
+                <p>Talk to doctors online</p>
+            </div>
+
+            <div class="service-card" onclick="openService('clinic')">
+                <h3>Visit Clinic</h3>
+                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=600&auto=format&fit=crop" alt="Visit Clinic">
+                <p>Book nearby clinics</p>
+            </div>
+
+            <div class="service-card" onclick="openService('lab')">
+                <h3>Lab Tests</h3>
+                <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?q=80&w=600&auto=format&fit=crop" alt="Lab Tests">
+                <p>Home sample collection</p>
+            </div>
+
+            <div class="service-card" onclick="openService('medicine')">
+                <h3>Medicine</h3>
+                <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?q=80&w=600&auto=format&fit=crop" alt="Medicine">
+                <p>Doorstep delivery</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Medico. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

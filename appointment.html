@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment - MedicoCare</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="back-nav">
+        <button onclick="goBack()">← Back</button>
+        <span>MedicoCare Platform</span>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo-section">
+                <img src="C:\Users\asmah\Downloads\logo.jpg" alt="MedicoCare Logo" class="logo">
+                <span class="logo-text">Medico</span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a class="active" href="appointment.html">Book Appointment</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Schedule an Appointment</h2>
+        <form id="appointmentForm" style="max-width: 600px; margin: 2rem 0;" onsubmit="return submitAppointment(event)">
+            <div style="margin-bottom: 1rem;">
+                <label for="patientName">Full Name</label>
+                <input type="text" id="patientName" required style="width: 100%; padding: 0.75rem; border-radius: 6px; border: 1px solid #ccc; margin-top: 0.25rem;">
+            </div>
+            <div style="margin-bottom: 1rem;">
+                <label for="patientEmail">Email Address</label>
+                <input type="email" id="patientEmail" required style="width: 100%; padding: 0.75rem; border-radius: 6px; border: 1px solid #ccc; margin-top: 0.25rem;">
+            </div>
+            <div style="margin-bottom: 1rem;">
+                <label for="patientPhone">Phone Number</label>
+                <input type="tel" id="patientPhone" required style="width: 100%; padding: 0.75rem; border-radius: 6px; border: 1px solid #ccc; margin-top: 0.25rem;">
+            </div>
+            <div style="margin-bottom: 1rem;">
+                <label for="appointmentDate">Preferred Date</label>
+                <input type="date" id="appointmentDate" required style="width: 100%; padding: 0.75rem; border-radius: 6px; border: 1px solid #ccc; margin-top: 0.25rem;">
+            </div>
+            <button type="submit" class="btn">Confirm Booking</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2026 Medico. All rights reserved.</p>
+    </footer>
+</body>
+</html>
