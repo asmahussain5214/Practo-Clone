@@ -55,7 +55,7 @@ Practo Clone/
 
 ## Doctors Page
 
-![Doctors](screenshots/doctors.png)
+![Doctors](https://github.com/asmahussain5214/Practo-Clone/blob/dcc11640a8225cfe5245b8b4bd48ab8c28bf59ea/List%20OF%20Doctors.png)
 
 ## Appointment Page
 
