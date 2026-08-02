@@ -69,7 +69,7 @@ Practo Clone/
 
 ## Medicine Page
 
-![Medicine](screenshots/medicine.png)
+![Medicine](https://github.com/asmahussain5214/Practo-Clone/blob/645bda3eba277f9ea76089dd3149cdfedec61854/Medicine-Section.png)
 
 
 
