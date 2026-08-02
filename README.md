@@ -64,6 +64,9 @@ Practo Clone/
 ##Inclinic visit
 ![In clinic](https://github.com/asmahussain5214/Practo-Clone/blob/3ecbe88bad18d49de0d493c4d96391d143c1a349/Inclinic-Visit.png)
 
+##LAB TEST
+![Lab test](https://github.com/asmahussain5214/Practo-Clone/blob/61ef5feba7ec4ebf8df53343322d727c43fa07c9/Lab-test-section.png)
+
 ## Medicine Page
 
 ![Medicine](screenshots/medicine.png)
