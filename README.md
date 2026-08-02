@@ -59,7 +59,7 @@ Practo Clone/
 
 ## Appointment Page
 
-![Appointment](screenshots/appointment.png)
+![Appointment](https://github.com/asmahussain5214/Practo-Clone/blob/46c30dd87feeae129b3240f3eb9e099d6f257971/Appointment%20Booking.png)
 
 ## Medicine Page
 
