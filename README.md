@@ -43,6 +43,10 @@ Practo Clone/
 1. Download or clone the repository.
 2. Open `index.html` in your browser.
 
+
+![image alt](https://github.com/asmahussain5214/Practo-Clone/blob/075d701892812eb137e14ac978ed03770ad63cd6/home.png)
+
+
 ## Author
 
 ** Mulla Asma **
