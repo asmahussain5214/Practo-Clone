@@ -51,7 +51,7 @@ Practo Clone/
 
 ## Home Page
 ![homeIMAGE alt](https://github.com/asmahussain5214/Practo-Clone/blob/075d701892812eb137e14ac978ed03770ad63cd6/home.png)
-
+__________________________________________________________________________________________________________________________________________________--
 ## Video consultation page
 
 ![Video_consultation](https://github.com/asmahussain5214/Practo-Clone/blob/414a7e18aadccbc02e4f6b293a3503f6d58891ea/Screenshot%202026-08-02%20165718.png)
