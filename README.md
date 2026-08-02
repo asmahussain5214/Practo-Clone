@@ -44,7 +44,27 @@ Practo Clone/
 2. Open `index.html` in your browser.
 
 
-![image alt](https://github.com/asmahussain5214/Practo-Clone/blob/075d701892812eb137e14ac978ed03770ad63cd6/home.png)
+
+
+# Screenshots
+
+## Home Page
+![homeIMAGE alt](https://github.com/asmahussain5214/Practo-Clone/blob/075d701892812eb137e14ac978ed03770ad63cd6/home.png)
+
+
+
+## Doctors Page
+
+![Doctors](screenshots/doctors.png)
+
+## Appointment Page
+
+![Appointment](screenshots/appointment.png)
+
+## Medicine Page
+
+![Medicine](screenshots/medicine.png)
+
 
 
 ## Author
